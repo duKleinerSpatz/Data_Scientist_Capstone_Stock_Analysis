@@ -1,0 +1,106 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <style>body{ margin:0 100; background:white; }</style>
+    </head>
+    <body>
+        <h1>Stock Analysis of "BMW.DE"</h1>
+
+        <!-- *** Section 1 *** --->
+        <h2>Quick Data Overview</h2>
+        
+        <h3>Finance Chart</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="finance_chart.html"></iframe>
+        <p></p>
+        
+        <h3>Latest available data:</h3>
+        <table class="table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>close_adj</th>
+      <th>volume</th>
+      <th>SMA</th>
+      <th>EMA</th>
+      <th>diffCloseSMA</th>
+      <th>BBperc</th>
+      <th>RSI</th>
+      <th>buySellKeepRec</th>
+    </tr>
+    <tr>
+      <th>date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2021-12-16</th>
+      <td>89.64</td>
+      <td>1364574.00</td>
+      <td>89.55</td>
+      <td>89.40</td>
+      <td>0.09</td>
+      <td>0.51</td>
+      <td>51.31</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+        <p></p>
+        
+        <h3>Close Prices, Dividends and Splits</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="close_plot.html"></iframe>
+        <p></p>
+        
+        <!-- *** Section 2 *** --->
+        <h2>Technical Analysis</h2>
+        
+        <h3>Bollinger Bands, Moving Averages and RSI</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="bb_rsi_plot.html"></iframe>
+        <p></p>
+        
+        <h3>Distance to the mean</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="diffCloseSMA_plot.html"></iframe>
+        <p></p>
+        
+        <h3>1-Day Returns in [%]</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="1dayReturn_perc_plot.html"></iframe>
+        <p></p>
+
+        <h3>Seasonal Decomposition</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="seasonal_decomposition_plot.html"></iframe>
+        <p></p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="seasonal_plot.html"></iframe>
+        <p></p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="residual_plot.html"></iframe>
+        <p></p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="seasonal_lag_plot.html"></iframe>
+        <p></p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="seasonal_predict_plot.html"></iframe>
+        <p></p>
+        
+        <h3>Trends</h3>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="trend_weak_plot.html"></iframe>
+        <p></p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="trend_strong_plot.html"></iframe>
+        <p></p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="buySellKeepRec_plot.html"></iframe>
+        <p></p>
+        
+        <!-- *** Section 3 *** --->
+        <h2>Predictions</h2>
+        
+        <h3>Adjusted Close Value on the next day</h3>
+        <p>Disclaimer: The displayed chart is used as place holder and does <u>not</u> predict future stock values in any way!</p>
+        <iframe width="1000" height="550" frameborder="0" seamless="seamless" scrolling="no" src="backtest_plot.html"></iframe>
+        <p></p>
+    </body>
+</html>
