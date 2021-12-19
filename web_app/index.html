@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>iPortfolio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.7.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <a href="index.html"><img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle"></a>
+        <h1 class="text-light"><a href="index.html">Kalinka</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+          <a href="https://www.facebook.com/thomas.kallnik/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/thomaskallnik/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+          <a href="https://www.linkedin.com/in/thomas-kallnik-914451138/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#statistics" class="nav-link scrollto"><i class="bi bi-graph-up-arrow"></i> <span>Statistics</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-person-lines-fill"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#testimonials" class="nav-link scrollto"><i class="bi bi-chat-right-dots"></i> <span>Testimonials</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Kalinka</h1>
+      <p>I'm a <span class="typed" data-typed-items="Mechanical Engineer, Data Scientist, Netflix-Junkie, Minion-Fan"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Button Section ======= -->
+    <section id="button" class="button">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Button</h2>
+          <p>This is where the magic happens.</p>
+        </div>
+
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Tell me your secrets</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="secret_input">
+        </div>
+
+        <script>
+          function myFunction() {
+            <!--alert("Random Alert");-->
+            document.getElementById("answer").innerHTML = "Unfortunately there is no working Backend configured yet. However, thanks for sharing your secret :)";
+            var x = document.getElementById("secret_input").value;
+            document.getElementById("secret_output").innerHTML = x;
+          }
+        </script>
+
+        <div class="row">
+          <center><button class="btn btn-primary" type="submit" onclick="myFunction();">Brace Yourself</button></center>
+          <p></p>
+          <h5><p id="answer"></p></h5>
+          <p></p>
+          <p id="secret_output"></p>
+        </div>
+
+      </div>
+    </section>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Mechanical Engineer &amp; Data Scientist.</h3>
+            <p class="fst-italic"></p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 April 1991</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>http://kalinka.synology.me</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>-</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Munich, Germany</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>E-Mail:</strong> <span>-</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong></strong> <span></span></li>
+                </ul>
+              </div>
+            </div>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Statistics Section ======= -->
+    <section id="statistics" class="statistics">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Statistics</h2>
+          <p>Not sure, what this section is going to be about though...</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-search"></i>
+              <span data-purecounter-start="0" data-purecounter-end="51" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Tries</strong> to find the perfect icons for those statistics.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-hourglass-split"></i>
+              <span data-purecounter-start="0" data-purecounter-end="378" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours of lifetime</strong> lost because of Deutsche Bahn.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="98344" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Memes and funny videos</strong> watched and shared amongst friends.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-geo-alt"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Countries</strong> visited.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="count-box">
+              <i class="bi bi-camera-reels"></i>
+              <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours of Netflix</strong> watched (per day).</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="600">
+            <div class="count-box">
+              <i class="bi bi-speaker"></i>
+              <span data-purecounter-start="0" data-purecounter-end="62000" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Minutes of Spotify</strong> listened last year.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="500">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Project Ideas</strong> discarded because of lack of skill, stamina and time.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="700">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Friends and Colleagues</strong> waiting desperately for more Kalinka Quality Content (KQC).</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Statistics Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p></p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">German <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">English <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Spanish <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">French <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Russian <i class="val">35%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Matlab <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Html <i class="val">10%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Education & Studies</h3>
+            <div class="resume-item">
+              <h4>Udacity Nanodegree Program "Data Science"</h4>
+              <h5>2021</h5>
+              <p><em>4 Months Online Course in Data Science with Python</em></p>
+              <p>Topics:</p>
+              <ul>
+                <li>Software Engineering</li>
+                <li>Data Engineering</li>
+                <li>Machine Learning</li>
+                <li>Experimental Design & Recommendation Engines</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Udacity Nanodegree Program "Data Analyst"</h4>
+              <h5>2021</h5>
+              <p><em>4 Months Online Course in Data Analysis with Python</em></p>
+              <p>Topics:</p>
+              <ul>
+                <li>Practical Statistics</li>
+                <li>Data Wrangling</li>
+                <li>Data Visualization</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Master of Science in Mechanical and Process Engineering</h4>
+              <h5>2015 - 2018</h5>
+              <p><em>Technische Universität Darmstadt, Germany (GPA 1.49)</em></p>
+              <p>Specialising in:</p>
+              <ul>
+                <li>Product Development</li>
+                <li>Automotive Industry</li>
+                <li>Ergonomics/User Experience</li>
+                <li>Human-Machine Interaction</li>
+              </ul>
+              <p>Masters Thesis (At the institute for mechatronic systems):</p>
+              <ul>
+                <em>Validation of Load Simulation for Drive Train Components for Customer Usage as well as for Specific Driving Maneuvers</em>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Erasmus Exchange Scholarship</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>UPC (Universidad Politècnica de Catalunya), Spain</em></p>
+              <p>ETSEIB (Escola Tècnica Superior d’Enginyeria Industrial de Barcelona)</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Mechanical and Process Engineering</h4>
+              <h5>2011 - 2015</h5>
+              <p><em>Technische Universität Darmstadt, Germany (GPA 2.9)</em></p>
+              <p>Specialising in:</p>
+              <ul>
+                <li>Automobile Technology</li>
+                <li>Human-Machine Interaction</li>
+              </ul>
+              <p>Bachelors Thesis (At the institute for mechatronic systems):</p>
+              <ul>
+                <em>Development and Construction of an Adapter to Analyze Foot Prostheses</em>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Abitur</h4>
+              <h5>2010</h5>
+              <p><em>Grimmelshausen Gymnasium Gelnhausen, Germany</em></p>
+              <p>Abitur (equivalent to A-level), final mark: 1.8 (1 being best and 6 being worst)</p>
+              <ul>
+                <li>Focus subjects: Mathematics, English</li>
+                <li>Further examination subjects: German, Religion, Informatics</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Test Engineer</h4>
+              <h5>2018 - Now</h5>
+              <p><em>BMW GROUP Munich, Department of Powertrain Development</em></p>
+              <p>Engine Testing at the BMW (Gasoline) Engine Test Rigs</p>
+              <ul>
+                <li>Planning, Preparing, Conducting, Supervising and Evaluating Engine Tests</li>
+                <li>Akquisition and Use of Measuring Technique Equipment</li>
+                <li>Measurment Data Analysis</li>
+                <li>Focus: Oil Circuit, Oil Emissions, Mechanical Component Testing and Methodologies</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>External Masters Thesis</h4>
+              <h5>2018</h5>
+              <p><em>BMW GROUP Munich, Department of Powertrain Development</em></p>
+              <p>Topic:</p>
+              <ul>
+                <em>Validation of Load Simulation for Drive Train Components for Customer Usage as well as for Specific Driving Maneuvers</em>
+              </ul>
+              <ul>
+                <li>Application of counting and classification methods, as well as damage estimation for the evaluation of client-like road loads in fatigue strength.</li>
+                <li>Creation of a Matlab Tool for automized processing of measurements and simulated data of endurance tests (Revolution-At-Level & Rainflow Counting, Duty Value etc.)</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Driving Experience</h4>
+              <h5>2018</h5>
+              <p><em>BMW GROUP Munich</em></p>
+              <p>Internal Licenses:</p>
+              <ul>
+                <li>B0, B1 in Maisach, Germany</li>
+                <li>B2 in Salzburg, Austria</li>
+              </ul>
+              <p><em>Vehicle Testing in Miramas, France</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Industrial Internship</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>BMW GROUP in Munich, Department of Powertrain Development</em></p>
+              <ul>
+                <li>Supporting Simultaneous Engineering Teams</li>
+                <li>Creating component project plans and maintaining data bases for conventional and electrified vehicles</li>
+                <li>Analysis manipulation and evaluation of simulated and on-track measured data with Matlab and other software (ADAMS, Turbolab)</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Industrial Internship</h4>
+              <h5>2011</h5>
+              <p><em>Heraeus Holding GmbH in Hanau, Germany</em></p>
+              <p>Acquiring competences in turning, milling, forming, welding and forging as preparation for the studies of mechanical and process engineering</p>
+            </div>
+            <div class="resume-item">
+              <h4>Kindergarten worker</h4>
+              <h5>2011</h5>
+              <p><em>Protestant kindergarten of Wächtersbach, Germany</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Mandatory Civilian service</h4>
+              <h5>2010</h5>
+              <p><em>Protestant congregation and kindergarten of Wächtersbach, Germany</em></p>
+              <p>Instead of a mandatory military service</p>
+            </div>
+          </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Here are a few of the projects that i have been working on so far...</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Personal Projects</li>
+              <li data-filter=".filter-card">Udacity Nanodegree Projects</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/stock_analysis.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/stock_analysis.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Stock Analysis - My First attempt of gathering, analyzing and eventually predicting stock data."><i class="bx bx-plus"></i></a>
+                <a href="assets/projects/stock_analysis/stock_analysis_04.html" target="_blank" rel="noopener noreferrer" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/bike_share.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/bike_share.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Metro Bike Share - An Analysis of shared bike trips around Los Angeles from 2016 to 2020"><i class="bx bx-plus"></i></a>
+                <a href="bike_share_project.html" target="_blank" rel="noopener noreferrer" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/seattle_airbnb.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/seattle_airbnb.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Investigation of an AirBnB Data Set from 2016 trying to predict prices with Machine Learning"><i class="bx bx-plus"></i></a>
+                <a href="seattle_airbnb_project.html" target="_blank" rel="noopener noreferrer" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p></p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  He has absolutely no idea what he is doing. I strongly encourage you to look for someone else. Absolute flop, I want my money back!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/grumpy1.png" class="testimonial-img" alt="">
+                <h3>Carl</h3>
+                <h4>Ceo &amp; Founder of Bananarama Ltd.</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Don't listen to Carl, Kalinka is an absolute Genius. I have never seen someone doing better Banana-Milkshakes than him. I love him. and I love Bananas. Take my money!!!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/happy.png" class="testimonial-img" alt="">
+                <h3>Bob</h3>
+                <h4>Passionate Banana Eater</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Are you looking for someone trustworthy, hard working and an absolute crack in his field? I am neither. But still Kalinka offered me 3 Bananas if I leave a positive Testimonial and who could reject an offer like that? Anyways, stay yellow!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/nasty.png" class="testimonial-img" alt="">
+                <h3>Steve</h3>
+                <h4>Designer @ Bananarama Ltd.</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  BANANAAAAAAAAAAAAA!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/ninja.png" class="testimonial-img" alt="">
+                <h3>No idea who that is</h3>
+                <h4>...but he understood the assignment.</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Nobody's gonna read so far to the right anyways...
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/grumpy2.png" class="testimonial-img" alt="">
+                <h3>Stuart</h3>
+                <h4>Gru's Import 'n' Export GmbH</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Don't contact me.</p>
+        </div>
+
+        <!--<div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>81543 Munich, Germany</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>E-mail:</h4>
+                <p>-</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>-</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
