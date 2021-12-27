@@ -12,6 +12,7 @@ numpy, pandas, math, matplotlib, plotly, datetime, random, re, requests, time, y
 2. stock_analysis_04.html: HTML Export of the latest notebook version.
 3. api_keys: Folder that includes .txt-files with api-keys (censored on github)
 4. data: Folder that holds all pictures, gifs, plotly plots, models, datasets and reports that are saved/loaded or used in the project.
+5. web_app: Folder that holds so far only the front end of the future project web app.
 
 ## Other Submissions:
 Medium Article: https://medium.com/@thomaskallnik/python-assisted-trading-decisions-62b44c2ed58e
